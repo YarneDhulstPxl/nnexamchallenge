@@ -16,7 +16,7 @@ def main():
         # dst ="Hostel" + str(i) + ".jpg"
         # src ='xyz'+ filename
         # dst ='xyz'+ dst
-        # rename() function will
+        # rename() functicdon will
         # rename all the files
         # os.rename(src, dst)
         i += 1
