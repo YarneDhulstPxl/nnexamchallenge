@@ -7,11 +7,12 @@ import os
 # Function to rename multiple files
 def main():
     i = 0
+    vari = "newdata/data/val/car/"
 
-    for filename in os.listdir("Pictures/car"):
+    for filename in os.listdir(vari):
         dst = "car-" + str(i) + ".jpeg"
-        src = 'Pictures/car/' + filename
-        dst = 'Pictures/car/' + dst
+        src = vari + filename
+        dst = vari + dst
         os.rename(src, dst)
         # dst ="Hostel" + str(i) + ".jpg"
         # src ='xyz'+ filename
