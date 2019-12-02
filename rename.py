@@ -6,8 +6,8 @@ import os
 
 # Function to rename multiple files
 def main():
-    i = 500
-    vari = "newdata/data/train/car/"
+    i = 1000
+    vari = "newdata/data/train/rename/"
 
     for filename in os.listdir(vari):
         dst = "car-" + str(i) + ".jpeg"
